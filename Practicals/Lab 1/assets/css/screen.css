@@ -1,0 +1,38 @@
+body
+{
+    background-color: #3E3E3E;
+}
+
+@font-face {
+    font-family: 'Burbank Big', Condensed, Black;
+    src: url(assets/fonts/burbankBigCondensedBlack.otf);
+}
+
+h1
+{
+    color: white;
+    font-family:'Burbank Big';   
+    font-size: 200%;
+    text-align: center;
+    
+}
+
+h2
+{
+    color: yellow;
+    font-family: 'Burbank Big', Condensed, Black;
+    text-align: center;
+    font-size: 100%;
+}
+
+h3
+{
+    color: white;
+    font-family: 'Burbank Big'
+}
+
+nav
+{
+    text-align: center;
+    border: 2px solid black;
+}
