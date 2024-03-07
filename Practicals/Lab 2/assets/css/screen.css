@@ -1,14 +1,18 @@
-body
+html, body
 {
     background-color: #3E3E3E;
+        height: 100%;
+        margin: 0;
+        padding: 0;
 }
 
-@font-face {
+@font-face 
+{
     font-family: 'Burbank Big', Condensed, Black;
     src: url(assets/fonts/burbankBigCondensedBlack.otf);
 }
 
-h1
+.title
 {
     color: white;
     font-family:'Burbank Big';   
@@ -17,7 +21,7 @@ h1
     
 }
 
-h2
+.secondaryTitle
 {
     color: yellow;
     font-family: 'Burbank Big', Condensed, Black;
@@ -25,7 +29,19 @@ h2
     font-size: 200%;
 }
 
-h3
+.coverImage
+{
+
+    
+        padding: 0;
+        display: block;
+        margin: 0 auto;
+        max-height: 100%;
+        max-width: 100%;
+}
+
+
+.introText
 {
     color: white;
     font-family: 'Burbank Big'
@@ -48,7 +64,7 @@ tr
     padding: 15px;
 }
 
-section
+.intro
 {
     background-color: #3d02bd;
     
