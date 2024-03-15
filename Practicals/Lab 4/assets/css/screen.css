@@ -32,19 +32,20 @@ html, body
 {
     padding: 0;
     display: block;
-    margin: 0 auto;
-    max-height: 100%;
-    max-width: 100%;
+    margin: 0 auto;    
 }
 
-
+.introClass
+{
+    background-color: #3d02bd;
+}
 .intro
 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    background-color: #3d02bd;
+    
 }
 .introText
 {
@@ -58,13 +59,17 @@ html, body
     flex-wrap: nowrap;
     justify-content: center;
 }
+div.relative 
+{
+    position: relative;
+}
 button
 {
     background-color: transparent;
     height: 50px;
     width: 100px;;
-    
-    
+    max-height: 100%;
+    max-width: 100%;
 }
 nav
 {
@@ -86,4 +91,11 @@ nav
 {
     float: right;
     position:static
+}
+
+.footer
+{
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
